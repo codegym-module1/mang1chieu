@@ -5,12 +5,12 @@ public class TimGiaTriLonNhat {
         Scanner scanner = new Scanner(System.in);
         int n = scanner.nextInt();
         int[] array = new int[n];
-//        do {
-//            System.out.print("Enter a size:");
-//            size = scanner.nextInt();
-//            if (size > 20)
-//                System.out.println("Size should not exceed 20");
-//        } while (size > 20);
+        do {
+            System.out.print("Enter a size:");
+            size = scanner.nextInt();
+            if (size > 20)
+                System.out.println("Size should not exceed 20");
+        } while (size > 20);
         for (int i = 0; i < array.length; i++) {
             System.out.println("Nhap vao gia tri: ");
             int giatri = scanner.nextInt();
